@@ -1,10 +1,8 @@
-# Turborepo starter with npm
+# Recourse Network Monorepo
 
-This is an official starter turborepo.
+Your gateway to the dataverse.
 
-## What's inside?
-
-This turborepo uses [npm](https://www.npmjs.com/) as a package manager. It includes the following packages/apps:
+This monorepo contains all the open source code released by Recourse.
 
 ### Apps and Packages
 
@@ -24,16 +22,12 @@ This turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
 
-## Setup
-
-This repository is used in the `npx create-turbo@latest` command, and selected when choosing which package manager you wish to use with your monorepo (npm).
-
 ### Build
 
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd recourse
 npm run build
 ```
 
@@ -42,7 +36,7 @@ npm run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd recourse
 npm run dev
 ```
 
@@ -53,7 +47,7 @@ Turborepo can use a technique known as [Remote Caching](https://turborepo.org/do
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
+cd recourse
 npx turbo login
 ```
 
